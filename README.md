@@ -25,3 +25,8 @@ This repo holds th code to my code katas on codewars.com
 -Modules:
 -Test:
 -URL: https://www.codewars.com/kata/file-path-operations/train/python
+
+# Forbs fortune 500
+-Modules: forbse.py
+-Test: test_forbes.py
+-URL: https://github.com/JoeyDeRosa/code-katas/compare/forbes?expand=1
