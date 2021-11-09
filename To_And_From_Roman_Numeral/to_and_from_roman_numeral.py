@@ -22,14 +22,6 @@ def to_numeral(a):
 				rn += "M"
 	return(rn[::-1])
 
-	
-
-test = to_numeral(2309)
-test1 = to_numeral(57)
-test2 = to_numeral(4044)
-
-print(test, test1, test2)
-
 def from_numeral(a):
 	rn = a
 	num = 0
@@ -41,11 +33,3 @@ def from_numeral(a):
 			num += key[rn[i]]
 	num += key[rn[-1]]
 	return(num)
-
-
-
-test = from_numeral('MMCMIV')
-test1 = from_numeral('CDXLIV')
-test2 = from_numeral('CMXCIX')
-
-print(test, test1, test2)
